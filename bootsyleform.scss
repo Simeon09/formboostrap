@@ -12,11 +12,11 @@
 
 }
 form{
-    width: 50%;
+    //width: 30vw;
     margin: auto;
     justify-self: center;
     margin: auto;
-    
+
 }
 
 .row{
@@ -25,6 +25,10 @@ form{
     border-radius: 4px;
     border: ridge;
     box-shadow: 2px 2px 2px 2px #ffffff;
+    @media only screen and (min-width:882px) {
+        width: 50vw;
+    }
+    
 }
 button{
     width: 100%;

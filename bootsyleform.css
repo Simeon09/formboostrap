@@ -11,7 +11,6 @@
 }
 
 form {
-  width: 50%;
   margin: auto;
   -ms-grid-column-align: center;
       justify-self: center;
@@ -25,6 +24,12 @@ form {
   border: ridge;
   -webkit-box-shadow: 2px 2px 2px 2px #ffffff;
           box-shadow: 2px 2px 2px 2px #ffffff;
+}
+
+@media only screen and (min-width: 882px) {
+  .row {
+    width: 50vw;
+  }
 }
 
 button {
