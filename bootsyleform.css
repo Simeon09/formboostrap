@@ -1,0 +1,67 @@
+.input-group-text {
+  background-color: white;
+  border-right: none;
+  -webkit-box-shadow: 0px 2px lightgray;
+          box-shadow: 0px 2px lightgray;
+}
+
+.input-group-text:focus {
+  -webkit-box-shadow: 1px 1px 1px 1px lightblue;
+          box-shadow: 1px 1px 1px 1px lightblue;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin: auto;
+}
+
+.row {
+  margin: auto;
+  background-color: lightgrey;
+  border-radius: 4px;
+  border: ridge;
+  -webkit-box-shadow: 2px 2px 2px 2px #ffffff;
+          box-shadow: 2px 2px 2px 2px #ffffff;
+}
+
+button {
+  width: 100%;
+}
+
+.form-control {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-left: none;
+  border: 2px 2px 2px 0px solid black;
+  -webkit-box-shadow: 0px 2px lightgray;
+          box-shadow: 0px 2px lightgray;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 1px 1px 1px 1px lightblue;
+          box-shadow: 1px 1px 1px 1px lightblue;
+}
+
+.form-control:focus:active {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.invalid-feedback {
+  display: none;
+}
+
+.is-invalid ~ .invalid-feedback, .is-invalid ~ .invalid-tooltip, .was-validated :invalid ~ .invalid-feedback, .was-validated :invalid ~ .invalid-tooltip {
+  display: block;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(burlywood), to(lightgrey));
+  background-image: linear-gradient(to right, burlywood, lightgrey);
+  color: black;
+}
+/*# sourceMappingURL=bootsyleform.css.map */
